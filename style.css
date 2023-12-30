@@ -1,0 +1,119 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+#about{
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#about h1{
+    padding: 3rem;
+    font-size: 4rem;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+span{
+    color: #fa016c;
+}
+
+.about-r{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.u{
+    display: flex;
+    padding: 0;
+    margin: 2rem;
+    width: 10;
+    background-color: transparent;
+}
+.u h4{
+    margin-left: 5rem;
+    width: 10rem;
+    background-color: rgb(78, 74, 74);
+}
+
+.u h3{
+    margin-left: 5rem;
+    width: 10rem;
+    background-color: red;
+}
+
+#servics{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20rem;
+    padding: 1rem;
+    background-color: rgb(78, 74, 74);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.8rem;
+}
